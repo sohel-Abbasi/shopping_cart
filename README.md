@@ -51,7 +51,7 @@ A full-stack shopping cart app built with **Node.js**, **Express**, **MongoDB**,
 2. Set up `.env` file with your MongoDB URI and JWT secret.
 3. Start the server:
    ```
-   npm start
+   npm run dev
    ```
 
 ### Frontend
@@ -62,7 +62,7 @@ A full-stack shopping cart app built with **Node.js**, **Express**, **MongoDB**,
    ```
 2. Start the React app:
    ```
-   npm start
+   npm run dev
    ```
 
 ---
