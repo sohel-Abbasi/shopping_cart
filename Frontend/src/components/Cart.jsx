@@ -8,7 +8,7 @@ const Cart = () => {
   useEffect(() => {
     const token = localStorage.getItem("token");
     axios
-      .get("http://localhost:3000/api/home/products-cart", {
+      .get("https://shopping-cart-backend-7r84.onrender.com/api/home/products-cart", {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((res) => setCartItems(res.data.products))
