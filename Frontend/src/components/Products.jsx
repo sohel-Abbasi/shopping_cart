@@ -23,7 +23,7 @@ const Products = () => {
         );
         const token = localStorage.getItem("token");
         const cartRes = await axios.get(
-          "http://localhost:3000/api/home/products-cart",
+          "https://shopping-cart-backend-7r84.onrender.com/api/home/products-cart",
           {
             headers: { Authorization: `Bearer ${token}` },
           }
@@ -42,7 +42,7 @@ const Products = () => {
     const token = localStorage.getItem("token");
     try {
       await axios.post(
-        "http://localhost:3000/api/home/products-cart",
+        "https://shopping-cart-backend-7r84.onrender.com/api/home/products-cart",
         { product },
         {
           headers: { Authorization: `Bearer ${token}` },
