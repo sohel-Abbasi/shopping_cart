@@ -1,0 +1,16 @@
+POST -> http://localhost:3000/api/user/register
+POST -> http://localhost:3000/api/user/login
+
+GET -> http://localhost:3000/api/home/products
+POST => http://localhost:3000/api/home/products-cart
+GET -> http://localhost:3000/api/home/products-cart
+
+Backend (Node,Express,MongoDb,JWT) =>
+     1.login Route   2.register Route   3.products Route(Authenticated)
+     4.products-cart Route(Authenticated) // here we store cart items
+
+ Frontend (React.js, axios, react-router) => 
+   1. Login page     2.register page      3.Navbar     4.products page
+   5. products-cart page
+
+
