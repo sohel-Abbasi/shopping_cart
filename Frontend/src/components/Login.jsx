@@ -31,7 +31,7 @@ const Login = () => {
         return alert("Please fill all the fields");
       }
 
-      const url = "http://localhost:3000/api/user/login"; // Replace with your API endpoint
+      const url = "https://shopping-cart-backend-7r84.onrender.com/api/user/login"; // Replace with your API endpoint
       const response = await axios.post(url, loginData, {
         headers: {
           "Content-Type": "application/json",
